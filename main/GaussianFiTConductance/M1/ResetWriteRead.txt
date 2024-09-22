@@ -1,0 +1,5 @@
+M1 L1
+Reset -2v, 100 mu, 100pulse train 10 pulses
+write 0.4v 100mu, 100 pulse train 
+g value 15-20 mu s
+M1 L2
