@@ -54,8 +54,11 @@ measurement pulses will commence. While the main pulse capture plots will
 update, the Conductance vs Time plot will simply add the new measurements
 and grow in size. If you would like to reset all plots, select the Pulse experiment
 from the main menu.
-#How to program Memristor conductance
+# How to program Memristor conductance
 1 In the pulse experiment first reset the device by applying large negative pulse i.e. -2v
-2 
+2 Apply several reset pulses by pressing start and stop button
+3 Now apply the pulses of +ve voltage, until you achieve the desired conductance state.
+4 Let few read pulses pass.
+5 Now you can read the memristor conductance by applying small +ve voltage i.e., 0.1v using DC or AC experiment via method describe in previous section
    
 
