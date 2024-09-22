@@ -12,11 +12,15 @@ Accessories can be purchased separately to provide additional functionality, suc
 To know about what is memristor and how it work. see Knowm Memristor Discovery Manual by Alex Nugent. Working with AD2 you must have Digilent waveform sotware available at  https://reference.digilentinc.com/reference/software/waveforms/waveforms-
 3/start.
 # DC response of Memristor
-Depending on your board version, vo, v1, v2 or v3. place a discrete memristor chip into the
- ocket of the Memristor Discovery board. Open the ”DC” experiment. Make 2 sure your V2 board is in ’Mode 1’. 
-The DC app allows you to drive a memristor in series with a resistor, as in Figure 18 of the manual , with various ramping functions including sawtooth, sawtoothupdown, triangle and triangleupdown at time scales from 10 to 1000ms. The number of applied ramping signals can be selected and the response can be observed as either a time series (V1+ vs T and V2+ vs T), I vs V or G vs V plot, revealing the behavior of the memristor at slow timescales.
+Depending on your board version, vo, v1, v2 or v3. place a discrete memristor chip into the socket of the Memristor Discovery board. Open the ”DC” experiment. Make 2 sure your V2 board is in ’Mode 1’.  The DC app allows you to drive a memristor in series with a resistor, as in Figure 18 of the manual , with various ramping functions including sawtooth, sawtoothupdown, triangle and triangleupdown at time scales from 10 to 1000ms. The number of applied ramping signals can be selected and the response can be observed as either a time series (V1+ vs T and V2+ vs T), I vs V or G vs V plot, revealing the behavior of the memristor at slow timescales.
 1. select the Dc experiment from the top menu
 2. select square waveform of amplitude 1v, pulse width 100ms, number of pulses 5.
-3. select the desired memristor from m1 to m16 (( onlu one memristor at a time)
+3. select the desired memristor from m1 to m16 (( only one memristor at a time)
 4. press start or s.
 5. you will seee the Pnched IV curve in IV plane, That is charateristic curve of a meristor. See IVPlot.pdf
+# How to fit IV curve to get conductance value using  Digilent waveform software with AD2
+1. Run the Dc experiment, and select IV responce of the memristor
+2. Export the IV values to a csv file
+3. In the file first column represent voltage and second current in milli ampares.
+4. Plot these values using python or root (c++), see code 
+
