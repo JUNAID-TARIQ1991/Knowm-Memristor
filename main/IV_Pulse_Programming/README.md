@@ -22,5 +22,6 @@ Depending on your board version, vo, v1, v2 or v3. place a discrete memristor ch
 1. Run the Dc experiment, and select IV responce of the memristor
 2. Export the IV values to a csv file
 3. In the file first column represent voltage and second current in milli ampares.
-4. Plot these values using python or root (c++), see code 
+4. Plot these values using python or root (c++), see code in IV_fitting branch.
+   
 
