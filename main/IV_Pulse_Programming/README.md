@@ -23,5 +23,39 @@ Depending on your board version, vo, v1, v2 or v3. place a discrete memristor ch
 2. Export the IV values to a csv file
 3. In the file first column represent voltage and second current in milli ampares.
 4. Plot these values using python or root (c++), see code in IV_fitting branch.
+# Pulse Programming experiment
+In the Pulse experiment we apply pulses of various magnitudes, durations,
+shapes, etc, to a memristor while we measure its resistance. We use the same
+basic circuit as the prior experiments (See figure 18). Pulse properties can be
+selected on the left controls. When a selection or change is made, a preview
+of the pulse shape is displayed in the main plot. When you are satisfied with
+your pulse (or pulse train), you can apply the pulse by clicking on the ’Start’
+button. Immediately after clicking the ’Start’ button, the captured waveform
+will display in the main plot area. At the same time, a series of ’read’ pulses
+will be fired at an interval set by the ’Sample Period [s]’ value, which is set
+38to 1 second by default. The measured conductance of the memristor over time
+will be displayed in the lower plot. These measurements will continue until the
+’Stop’ button (previously the ’Start’ button) is pressed.
+You can select three plots to display in the main plot area via the radio
+button at the bottom of the screen, below the conductance-vs-time plot. ’Write-
+Erase Pulse Capture’ displays V1 (Blue), V2(Yellow) and V1-V2(Purple), which
+is the voltage drop across the memristor. ’Read Pulse Capture’ displays the
+same voltages, but will update for every new read pulse. The conductance
+of the memristor is calculated from this information. Due to RC effects, it is
+important to understand how this occurs and helpful to see the raw data to make
+sure you are not operating outside the optimal parameters for measurement. We
+will discuss this in more detail below. Finally, the ’I-T’ plot converts the data
+gathered in the ’Write-Erase Pulse Capture’ data and, using the value of the
+series resistor, computes the current.
+The pulse can be applied again by clicking ’Stop’ and then ’Start’ again or by
+pressing the ’S’ key on the keyboard to toggle between the two. Each time the
+’Start’ button is pressed, a pulse will be generated, waveforms captured, and
+measurement pulses will commence. While the main pulse capture plots will
+update, the Conductance vs Time plot will simply add the new measurements
+and grow in size. If you would like to reset all plots, select the Pulse experiment
+from the main menu.
+#How to program Memristor conductance
+1 In the pulse experiment first reset the device by applying large negative pulse i.e. -2v
+2 
    
 
