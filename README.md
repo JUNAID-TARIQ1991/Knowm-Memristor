@@ -13,7 +13,7 @@ Waveform Generator, Power Supply, Voltmeter, Data Logger, Logic Analyzer, Patter
 
 When you buy an oscilloscope from Digilent, you can be confident that you're getting an excellent product from a trusted brand. We're committed to providing our customers with the best possible experience, whether you're a student just starting out or a seasoned professional. We also offer the best oscilloscope price on the market for verified academic accounts, so if you're looking to reduce the oscilloscope cost, head over to our academic verification page for more information. If you're an international customer, we have a network of authorized oscilloscope distributors that may have better shipping options. To find an oscilloscope distributor near you, you can select the distributor button above or visit our Affiliations page.
 
-#USB Oscilloscope
+# USB Oscilloscope
 Analog Discovery 2 among compatible add-on boardsThe Analog Discovery 2 oscilloscope is designed to be a portable alternative to a stack of benchtop equipment. It's durable enclosure measures (3.23 inch x 3.25 inch x7/8 inch) and fits in a pocket. 
 The Digilent Discovery 2 can be connected to circuits and designs via the included female flywires, or used in conjunction with the included gender changers when a male connection is necessary.
 
@@ -59,11 +59,13 @@ Software for the Memristor Discovery board is open-source and available at https
 memristor “experiments” on the Memristor Discovery board. It is designed to be cross-platform, meaning it runs on
 the latest versions of MacOS, Debian-based Linux and Windows 10. Running Memristor-Discovery requires Java
 and the Digilent waveforms Framework to be installed on your system (see previous software link for amore details).
-# Memristor Discovery and AD2
+# Memristor Discovery and AD2 
 The Memristor Discovery board was designed to plug into the Digilent AD2 USB oscilloscope and accept a Knowm
 16-pin DIP socket memristor chip. The board couples individual memristors in series with a resistor (used as a
 current meter) via analog switches. Individual switch access, via the digital I/O channels, allow for single or parallel
-coupling of memristor devices.
+coupling of memristor devices.![Capture3](https://github.com/user-attachments/assets/9053b77a-ccbd-4851-b465-7873065eec84)
+![Capture5](https://github.com/user-attachments/assets/e4edb9ef-5db8-489c-a128-7d8d91a9fb87)
+
 # Memristor Discovery Experiments
  The Memristor Discovery hardware and software works together to run a set of clearly-defined and encapsulated
 experiments, designed to ease the experience of running basic to intermediate experiments and data collection on
