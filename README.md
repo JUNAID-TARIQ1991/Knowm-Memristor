@@ -45,7 +45,8 @@ Network Analyzer
 Impedance Analyzer
 Curve Tracer
 Protocol Analyzer
- 
+ ![Capture1](https://github.com/user-attachments/assets/06433f3d-9469-49a9-ad22-8f3221743fb9)
+
 For even more customization potential, the WaveForms Software Development Kit (SDK) can be used to create custom applications and scripts in Python, C, and additional languages.The Analog Discovery 2 is also compatible with LabVIEW and the Digilent Toolbox for
 compatibility with MathWorks' MATLAB Data Acquisition Toolbox 
 # What is Memristor Discovery Software and Hardware?
