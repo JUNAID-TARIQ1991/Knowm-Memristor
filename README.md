@@ -65,6 +65,45 @@ The Memristor Discovery board was designed to plug into the Digilent AD2 USB osc
 current meter) via analog switches. Individual switch access, via the digital I/O channels, allow for single or parallel
 coupling of memristor devices.![Capture3](https://github.com/user-attachments/assets/9053b77a-ccbd-4851-b465-7873065eec84)
 ![Capture5](https://github.com/user-attachments/assets/e4edb9ef-5db8-489c-a128-7d8d91a9fb87)
+# Memristor Discovery Software Overview
+# Boards and Experiments
+Memristor Discovery software is extensible and
+can support multiple board types or versions. We currently have three boards:
+V0, V1 and V2 and anticipate the addition of new boards and improvements to
+the existing boards over time. As some experiments will only work with certain
+boards, you must insure that the board selected in the menu matches the board
+you are using. Experiments can be selected in the ’Experiment’ menu. We will
+review five experiments in this guide, from basic memristor characterization to
+a learning neuron circuit.
+# Preferences
+Every experiment consists of various controls that set various
+parameters like voltage, pulse duration, etc. Each experiment supports default
+settings that can be set via the preference menu. Once an experiment is selected,
+23
+click on ’Window’ and select ’Preferences’. This will open a dialog box with
+various settings that will become the default.
+Help Every experiment provides help documentation that can be viewed by
+clicking ’Window’ and ’Help’. This is intended primarily to help set up any
+connections and describe the purpose of the experiment. For more extensive
+help, please refer to this guide.
+Console Some experiments include back end processing and rely on certain
+conditions to be met for accurate results. To help debug problems and provide
+more feedback to the operator, we created a ’Console’ view that allows simple
+messages to be printed to a scrolling dialog. The console can be viewed by
+clicking on ’Window’ and then ’Console’.
+# Memristor Selection
+Most of the experiments will require manual selection
+of one or two memristors. This is done by clicking on one of the radio-buttons
+located at the top of the window, just beneath the main menu. If no memristor
+is selected the bar will turn red to warn you that no memristor is selected.
+AD2 Board Connectivity All experiments require a connection to the Analog Discovery 2. If the AD2 is plugged in via the USB cable, Memristor Discovery software will connect. If connection does not occur, the lower bar on the
+window will turn red to indicate there is no connection. Insuring the USB cable
+is connected, click on the ’Board On/Off’ switch at the bottom of the window.
+# Charts and Data Export 
+All charts are produced with our open-source
+plotting package XChart. To save a picture of the plot or to export the data
+to a CSV file, right click on the chart and select ’Save As...’ or ’Export To...’,
+respectively.
 
 # Memristor Discovery Experiments
  The Memristor Discovery hardware and software works together to run a set of clearly-defined and encapsulated
