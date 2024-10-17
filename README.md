@@ -48,3 +48,18 @@ Protocol Analyzer
  
 For even more customization potential, the WaveForms Software Development Kit (SDK) can be used to create custom applications and scripts in Python, C, and additional languages.The Analog Discovery 2 is also compatible with LabVIEW and the Digilent Toolbox for
 compatibility with MathWorks' MATLAB Data Acquisition Toolbox 
+# What is Memristor Discovery Software and Hardware?
+Memristor Discovery is a low-cost solution for exploring memristor behavior. The board plugs into the Digilent
+Analog Discovery 2 (sold separately). Digital IO channels 0–7 activate analog switches that couple memristors to
+the AD2 waveform generator and two oscilloscope channels. LEDs indicate closed switches. Easy access testpoints and sockets allow for convenient coupling of the circuit to additional measurement equipment and breadboards. An optional lever-actuated 3M DIP socket provides zero insertion force to prevent handling damage of chip
+pins. Configuration options include choice of analog switches and DIP socket.
+# Memristor Discovery Software
+Software for the Memristor Discovery board is open-source and available at https://github.com/knowm/memristordiscovery. Updates are always free of charge. The Memristor Discovery app is a Java application for running
+memristor “experiments” on the Memristor Discovery board. It is designed to be cross-platform, meaning it runs on
+the latest versions of MacOS, Debian-based Linux and Windows 10. Running Memristor-Discovery requires Java
+and the Digilent waveforms Framework to be installed on your system (see previous software link for amore details).
+# Memristor Discovery and AD2
+The Memristor Discovery board was designed to plug into the Digilent AD2 USB oscilloscope and accept a Knowm
+16-pin DIP socket memristor chip. The board couples individual memristors in series with a resistor (used as a
+current meter) via analog switches. Individual switch access, via the digital I/O channels, allow for single or parallel
+coupling of memristor devices.
