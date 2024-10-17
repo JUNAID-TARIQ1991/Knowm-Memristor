@@ -24,7 +24,7 @@ and provides even more durability when stashing your portable Oscilloscope and m
 For improved Power Supplies, integrated BNC connectors and a replaceable breadboardable interface, check out the Analog Discovery Studio.
 
 
-#What is WaveForms?
+# What is WaveForms?
 WaveForms is the free software application for the Analog Discovery 2 and enables use of the available analog and digital instruments. 
 The software has been refined by customer feedback for over 10 years and features a computer and laptop friendly user interface that has the feel of traditional benchtop software. The Analog Discovery 2 communicates with WaveForms via a USB connection 
 to your computer, allowing users to capture, record, analyze, and generate mixed signal and mixed domain waveforms. WaveForms can be downloaded and installed in under 60 seconds and can be tested without hardware using its demo mode feature. In addition 
