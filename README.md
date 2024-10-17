@@ -63,3 +63,16 @@ The Memristor Discovery board was designed to plug into the Digilent AD2 USB osc
 16-pin DIP socket memristor chip. The board couples individual memristors in series with a resistor (used as a
 current meter) via analog switches. Individual switch access, via the digital I/O channels, allow for single or parallel
 coupling of memristor devices.
+# Memristor Discovery Experiments
+ The Memristor Discovery hardware and software works together to run a set of clearly-defined and encapsulated
+experiments, designed to ease the experience of running basic to intermediate experiments and data collection on
+memristors for students and hobbyists alike.
+The experiments that come bundled with the software include:
+1. Hysteresis
+2. DC
+3. Pulse
+Each different experiment comes with a help page, which explains the basics of the experimental controls and the
+gist of the demonstration including a circuit diagram. In addition, all experiments come with a preferences panel
+allowing the student to save any of the experimental controls so that these values don’t need to be manually
+adjusted every time the software is restarted. All experiments allow for the export of the data shown in the plot as a
+bitmap chart or as a CSV file.
