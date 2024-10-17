@@ -1,4 +1,4 @@
-#What is Analog Discovery 2.
+##What is Analog Discovery 2.
 Please visit www.digilent.com to see detail.
 What is the Analog Discovery 2?
 If you're wondering where to buy an oscilloscope or how to buy an oscilloscope, you've come to the right place. Digilent Analog Discovery 2 is a USB oscilloscope, logic analyzer, 
