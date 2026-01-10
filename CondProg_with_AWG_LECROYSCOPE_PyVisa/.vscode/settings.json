@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "plot_scaling_vs_train.C": "cpp",
+        "plot_all_logs.C": "cpp"
+    }
+}

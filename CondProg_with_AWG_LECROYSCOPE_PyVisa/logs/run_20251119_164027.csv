@@ -1,0 +1,3 @@
+timestamp,scenario,channel,attempt,mode,G_prev_uS,G_uS,G_target_uS,err_uS,rel_err,alpha,beta,scaling_factor,K,pw_scale,np_scale,stuck_counter,flip_damped,PW_s,NP,Amplitude_V
+2025-11-19 16:40:33,set,1,0,dec,141.45828491891442,,140.0,-1.4582849189144151,-0.01041632084938868,1.0,1.0,0.1,,,,,,0.0001,10,-0.25
+2025-11-19 16:40:39,set,1,0,read,141.45828491891442,138.98031058028008,140.0,1.0196894197199056,0.007283495855142184,,,,,,,,,0.0,0,0.0
